@@ -34,7 +34,11 @@ python3 main.py -u http://example.com/ -o 1#对单个url进行，进行指定漏
 python3 main.py -u u.txt #对多个url进行漏洞批量检测
 python3 main.py -u u.txt -0 1  #对只指定漏洞批量检测
 ```
-
+```
+安装：
+pip install -r requirement.txt
+使用python3运行，兼容Linux与windows
+```
 目前支持
 ```
 ruoji_scan_poc_1.0 by 弱鸡支持以下漏洞检测
@@ -76,3 +80,8 @@ ruoji_scan_poc_1.0 by 弱鸡支持以下漏洞检测
 在安装并使用本工具前，请您务必审慎阅读、充分理解各条款内容，限制、免责条款或者其他涉及您重大权益的条款。除非您已充分阅读、完全理解并接受本协议所有条款，否则，请您不要安装并使用本工具。
 您的使用行为或者您以其他任何明示或者默示方式表示接受本协议的，即视为您已阅读并同意本协议的约束。
 程序仅提供对漏洞点的判断，并不存在恶意操作!若检测到程序发出危险流量请及时联系作者进行删除，程序内的所有Payload来源于网络.
+
+有问题请提交issues
+项目会一直维护
+项目群聊
+![Screenshot_20230224_091421](https://user-images.githubusercontent.com/79234113/221067915-8bc6410f-fa3c-4b4a-b505-8ca666643ba9.jpg)
