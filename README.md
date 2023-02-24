@@ -15,7 +15,7 @@
 PS D:\ruoji_sacn_poc> python .\main.py            
 usage: main.py [-h] [-u URL] [-t THREAD] [-s SUPPORT] [-b BATCH] [-o ONE]
 
-ruoji_scan_poc_1.0 by 弱鸡
+ruoji_scan_poc_1.0.[25] by 弱鸡
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -28,7 +28,13 @@ optional arguments:
                         -b 文件名 or --Batch 文件名 [txt文件]
   -o ONE, --one ONE     -o 漏洞号 or --one 漏洞号 [单个漏洞检测]
 
+python3 main.py -s 1 查看漏洞编号
+python3 main.py -u http://example.com/ -o 1#对单个url进行，进行指多个漏洞检测
+python3 main.py -u http://example.com/ -o 1#对单个url进行，进行指定漏洞检测
+python3 main.py -u u.txt #对多个url进行漏洞批量检测
+python3 main.py -u u.txt -0 1  #对只指定漏洞批量检测
 ```
+
 目前支持
 ```
 ruoji_scan_poc_1.0 by 弱鸡支持以下漏洞检测
@@ -55,6 +61,8 @@ ruoji_scan_poc_1.0 by 弱鸡支持以下漏洞检测
 [+]21、源天OASQL注入漏洞
 [+]22、金蝶OAApusic应用服务器(中间件)server_file目录遍历漏洞
 [+]23、金蝶OAserver_file目录遍历漏洞
+[+]24、极限OA任意文件读取漏洞
+[+]25、蓝凌OAsysSearchMain.do远程命令执行漏洞
 ```
 
 ## 尽情期待
