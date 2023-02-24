@@ -1,4 +1,4 @@
-# ruoji_scan_poc
+# ruoji_scan_poc_1.0.[25]
 ![image](https://user-images.githubusercontent.com/79234113/220616193-a9091d15-755d-4922-a634-0f801ccd3e46.png)
 ![image](https://user-images.githubusercontent.com/79234113/220616230-5ce7d5a5-047d-473e-82c3-5b1aca8fe474.png)
 ![image](https://user-images.githubusercontent.com/79234113/220616400-ff15fb67-aba4-44e4-854f-853e981eaed6.png)
