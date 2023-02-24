@@ -81,7 +81,7 @@ ruoji_scan_poc_1.0 by 弱鸡支持以下漏洞检测
 您的使用行为或者您以其他任何明示或者默示方式表示接受本协议的，即视为您已阅读并同意本协议的约束。
 程序仅提供对漏洞点的判断，并不存在恶意操作!若检测到程序发出危险流量请及时联系作者进行删除，程序内的所有Payload来源于网络.
 
-有问题请提交issues
+## 有问题请提交issues
 项目会一直维护
-项目群聊
-![Screenshot_20230224_091421](https://user-images.githubusercontent.com/79234113/221067915-8bc6410f-fa3c-4b4a-b505-8ca666643ba9.jpg)
+## 项目群聊
+![20230224091605](https://user-images.githubusercontent.com/79234113/221068048-de1dca82-502d-4db7-8952-b84a32528cfd.png)
