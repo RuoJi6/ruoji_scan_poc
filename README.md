@@ -1,12 +1,15 @@
 # ruoji_scan_poc_1.0.[25]
-![image](https://user-images.githubusercontent.com/79234113/220616193-a9091d15-755d-4922-a634-0f801ccd3e46.png)
-![image](https://user-images.githubusercontent.com/79234113/220616230-5ce7d5a5-047d-473e-82c3-5b1aca8fe474.png)
+![image](https://user-images.githubusercontent.com/79234113/221392574-080836b3-8925-4de7-8a4a-f2db70baa485.png)
+![image](https://user-images.githubusercontent.com/79234113/221392589-b5b81cda-04c9-4c3a-9157-045eb3de7400.png)
 ![image](https://user-images.githubusercontent.com/79234113/220616400-ff15fb67-aba4-44e4-854f-853e981eaed6.png)
 ![image](https://user-images.githubusercontent.com/79234113/220616464-05f1c541-508f-4e03-a59e-e36129c09448.png)
 ![image](https://user-images.githubusercontent.com/79234113/220616640-9ad857be-49af-4de4-bc09-7099436bf98c.png)
 ![image](https://user-images.githubusercontent.com/79234113/220616789-343093a2-c9ff-4cf9-b570-b496e8f2e374.png)
+![307257964BE294B8F7DFEFA65A896222](https://user-images.githubusercontent.com/79234113/221392610-def4338d-26b1-4bd7-b318-12aa096cc2ac.jpg)
 
-用于红队漏洞检测，可以批量检测漏洞
+
+## 用于红队漏洞检测，可以批量检测漏洞
+
 单个资产漏洞检测批量检测
 多个资产批量检测
 用于快速进行漏洞打点，找到存在的漏洞
@@ -15,7 +18,7 @@
 PS D:\ruoji_sacn_poc> python .\main.py            
 usage: main.py [-h] [-u URL] [-t THREAD] [-s SUPPORT] [-b BATCH] [-o ONE]
 
-ruoji_scan_poc_1.0.[25] by 弱鸡
+ruoji_scan_poc_1.0.[40] by 弱鸡
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -29,23 +32,23 @@ optional arguments:
   -o ONE, --one ONE     -o 漏洞号 or --one 漏洞号 [单个漏洞检测]
 
 python3 main.py -s 1 查看漏洞编号
-python3 main.py -u http://example.com/ -o 1#对单个url进行，进行指多个漏洞检测
+python3 main.py -u http://example.com/#对单个url进行，进行指多个漏洞检测
 python3 main.py -u http://example.com/ -o 1#对单个url进行，进行指定漏洞检测
-python3 main.py -u u.txt #对多个url进行漏洞批量检测
-python3 main.py -u u.txt -0 1  #对只指定漏洞批量检测
+python3 main.py -b u.txt #对多个url进行漏洞批量检测
+python3 main.py -b u.txt -o 1  #对只指定漏洞批量检测
 ```
 ```
 安装：
 pip install -r requirement.txt
-使用python3运行，兼容Linux与windows
+使用python3运行，兼容Linux，windows，mac
 ```
 目前支持
 ```
-ruoji_scan_poc_1.0 by 弱鸡支持以下漏洞检测
+ruoji_scan_poc_1.0.[40] by 弱鸡 支持以下漏洞检测
 [+]1、小皮面板未授权访问漏洞
 [+]2、小皮面板xss，linuxRCE，多处任意文件上传
-[+]3、狮子鱼CMS任意文件上传
-[+]4、poc2狮子鱼CMS任意文件上传
+[+]3、狮子鱼CMSCMSwxapp.php任意文件上传
+[+]4、狮子鱼CMSimage_upload.php任意文件上传
 [+]5、狮子鱼CMSsql注入
 [+]6、poc2狮子鱼CMSsql注入
 [+]7、WeiPHP3.0文件上传
@@ -67,6 +70,21 @@ ruoji_scan_poc_1.0 by 弱鸡支持以下漏洞检测
 [+]23、金蝶OAserver_file目录遍历漏洞
 [+]24、极限OA任意文件读取漏洞
 [+]25、蓝凌OAsysSearchMain.do远程命令执行漏洞
+[+]26、蓝凌OA任意文件读取漏洞
+[+]27、蓝凌OAtreexml远程命令执行漏洞
+[+]28、致远OAA8status.jsp信息泄露漏洞
+[+]29、致远OAA8htmlofficeservlet任意文件上传漏洞
+[+]30、致远OAA6数据库敏感信息泄露
+[+]31、致远OAA6DownExcelBeanServlet用户敏感信息泄露
+[+]32、致远OAA6initDataAssess.jsp用户敏感信息泄露
+[+]33、致远OAA6setextno.jspSQL注入漏洞
+[+]34、致远OAA6config.jsp敏感信息泄漏漏洞
+[+]35、致远OAA6test.jspSQL注入漏洞
+[+]36、致远OAajax.do任意文件上传CNVD-2021-01627
+[+]37、致远OASession泄漏漏洞
+[+]38、致远OAwebmail.do任意文件下载CNVD-2020-62422
+[+]39、致远OAwpsAssistServlet任意文件上传漏洞
+[+]40、致远OA帆软组件ReportServer目录遍历漏洞
 ```
 
 ## 尽情期待
