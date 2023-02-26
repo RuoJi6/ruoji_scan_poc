@@ -40,7 +40,7 @@ python3 main.py -b u.txt -o 1  #对只指定漏洞批量检测
 ```
 安装：
 pip install -r requirement.txt
-使用python3运行，兼容Linux，windows，mac
+使用python3运行，兼容Linux与windows
 ```
 目前支持
 ```
