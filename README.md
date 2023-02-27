@@ -15,6 +15,9 @@
 用于快速进行漏洞打点，找到存在的漏洞
 
 ```
+建议使用Windows Terminal启动命令行
+在windows官方的微软商店下载
+
 PS D:\ruoji_sacn_poc> python .\main.py            
 usage: main.py [-h] [-u URL] [-t THREAD] [-s SUPPORT] [-b BATCH] [-o ONE]
 
