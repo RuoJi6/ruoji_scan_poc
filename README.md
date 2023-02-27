@@ -16,7 +16,7 @@
 
 ```
 建议使用Windows Terminal启动命令行
-在windows官方的微软商店下载
+在windows官方的微软商店下载，Windows Terminal windows11自带，windows10需要自己安装，用于美化命令行
 
 PS D:\ruoji_sacn_poc> python .\main.py            
 usage: main.py [-h] [-u URL] [-t THREAD] [-s SUPPORT] [-b BATCH] [-o ONE]
